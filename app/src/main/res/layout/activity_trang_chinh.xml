@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_login"
+    android:orientation="vertical"
+    tools:context=".TrangChinhActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nameProject"
+        android:textSize="16pt"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="2pt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nameProject"
+        android:backgroundTint="@color/btn_quanly"
+        android:id="@+id/btnQLSP"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20pt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nameTypeProduct"
+        android:backgroundTint="@color/btn_quanly"
+        android:id="@+id/btnQLLSP"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20pt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thontin"
+        android:backgroundTint="@color/btn_quanly"
+        android:id="@+id/btnAbout"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20pt"/>
+
+</LinearLayout>

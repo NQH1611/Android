@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_lsp">
+
+
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTenSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="5pt"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Tên Sản Phẩm" />
+
+        <TextView
+            android:id="@+id/txtGiaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5pt"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Giá Sản Phẩm" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loại Sản Phẩm"
+            android:layout_marginHorizontal="5pt"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtOPLoaiSp"/>
+        <LinearLayout
+            android:layout_width="120pt"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="40pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="5pt"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/btn_quanly"
+                android:text="@string/btnSua"
+                android:id="@+id/btnSuaSP"/>
+            <Button
+                android:layout_width="40pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2pt"
+                android:text="@string/btnChiTiet"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/btn_quanly"
+                android:textSize="5pt"
+                android:id="@+id/btnChiTietSP"/>
+            <Button
+                android:layout_width="40pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="5pt"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/btn_quanly"
+                android:text="@string/btnXoa"
+                android:id="@+id/btnXoaSP"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

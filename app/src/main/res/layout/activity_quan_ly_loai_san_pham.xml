@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_login"
+    tools:context=".QuanLyLoaiSanPhamActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nameTypeProduct"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14pt"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToAcThemLSP"
+        android:layout_gravity="center"
+        android:text="@string/themLSP"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="@color/btn_quanly"/>
+    <ListView
+        android:id="@+id/lvLoaiSP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/option_listview_qllsp"/>
+</LinearLayout>

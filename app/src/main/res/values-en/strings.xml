@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Product Management</string>
+    <string name="tenDangNhap">Sign In</string>
+    <string name="etUser">UserNam</string>
+    <string name="etPassword">PassWord</string>
+    <string name="btnDangNhap">Login</string>
+    <string name="tvForgot">Forgot Password</string>
+    <string name="nameProject">PRODUCT MANAGEMENT</string>
+    <string name="nameTypeProduct">PRODUCT TYPE MANAGEMENT</string>
+    <string name="thontin">ABOUT</string>
+    <string name="themSP">Add Product</string>
+    <string name="themLSP">Add Product Type</string>
+    <string name="btnSua">Update</string>
+    <string name="btnThem">Add</string>
+    <string name="btnChiTiet">Detail</string>
+    <string name="btnXoa">Delete</string>
+    <string name="btnNo">No</string>
+    <string name="messageXoaLSP">Do You Want Delete Product Type?</string>
+    <string name="messageXoaSP">Do You Want Delete Product?</string>
+    <string name="messageContrain">Product Data Available. Do You Want To Delete?</string>
+    <string name="messageThemSP">Do You Want Add Product</string>
+    <string name="messageThemLSP">Do You Want Add Product Type</string>
+    <string name="messageSuaSP">Do You Want Update Product</string>
+    <string name="messageSuaLSP">Do You Want Update Product Type</string>
+    <string name="titleThemSP">ADD PRODUCT</string>
+    <string name="contentImage">Image Product</string>
+    <string name="hintMaSP">Product Code</string>
+    <string name="hintTenSP">Product Name</string>
+    <string name="hintGiaSP">Price Product</string>
+    <string name="hintHanSD">Expiry Date</string>
+    <string name="hintTrongLuong">Net Weight</string>
+    <string name="btnLuu">Save</string>
+    <string name="titleThemLSP">ADD PRODUCT TYPE</string>
+    <string name="hintMaLSP">Type Product Code</string>
+    <string name="hintTenLSP">Type Product Name</string>
+    <string name="titleSuaSP">UPDATE PRODUCT</string>
+    <string name="titleSuaLSP">UPDATE PRODUCT TYPE</string>
+    <string name="sanPham">PRODUCT</string>
+    <string name="loaiSanPham">PRODUCT TYPE</string>
+    <string name="back">Back</string>
+    <string name="exit">Exit</string>
+    <string name="success">Success</string>
+    <string name="messageSuaLSPContrain">Currently have product. Unable to edit data!</string>
+</resources>
